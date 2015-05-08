@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>25B48D76-9720-49F0-B168-6B999ABC7735</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Class-ification Teacher</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ED7E8B30F75696D77C0F38CEFED1001E11BF1BEA</key>
+		<string>https://bitbucket.org/diegomontoyas/class-ification-teacher.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Class-ification Teacher.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ED7E8B30F75696D77C0F38CEFED1001E11BF1BEA</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/diegomontoyas/class-ification-teacher.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ED7E8B30F75696D77C0F38CEFED1001E11BF1BEA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ED7E8B30F75696D77C0F38CEFED1001E11BF1BEA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Class-ification%20Teacher</string>
+		</dict>
+	</array>
+</dict>
+</plist>
