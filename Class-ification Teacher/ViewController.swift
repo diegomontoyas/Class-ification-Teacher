@@ -8,18 +8,47 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    @IBOutlet weak var challengePrize: UITextField!
+    @IBOutlet weak var challengeCost: UITextField!
+    
+    @IBOutlet weak var question: UITextField!
+    @IBOutlet weak var answerA: UITextField!
+    @IBOutlet weak var answerB: UITextField!
+    @IBOutlet weak var answerC: UITextField!
+    @IBOutlet weak var answerD: UITextField!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func throwChallengeButtonPressed(sender: AnyObject)
+    {
+        endEditing()
+        
+        system.throwChallengeWithCost(challengeCost.text.toInt()!, prize: challengePrize.text.toInt()!)
     }
-
-
+    
+    @IBAction func throwQuestionButtonPressed(sender: AnyObject)
+    {
+        endEditing()
+        
+        system.throwQuestionWithQuestion(question.text, answers: [answerA.text, answerB.text, answerC.text, answerD.text])
+    }
+    
+    func endEditing()
+    {
+        challengeCost.endEditing(true)
+        challengePrize.endEditing(true)
+        
+        question.endEditing(true)
+        answerA.endEditing(true)
+        answerB.endEditing(true)
+        answerC.endEditing(true)
+        answerD.endEditing(true)
+    }
 }
 
